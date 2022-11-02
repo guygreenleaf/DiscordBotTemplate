@@ -1,0 +1,5 @@
+https://discord.com/api/oauth2/authorize?client_id={CLIENT_ID}&permissions=0&scope=bot%20applications.commands
+
+PROD: https://discord.com/api/oauth2/authorize?client_id=1033536232497631232&permissions=8&scope=bot
+
+DEV: https://discord.com/api/oauth2/authorize?client_id=1033836503949905991&permissions=8&scope=bot
