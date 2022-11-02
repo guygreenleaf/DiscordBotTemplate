@@ -5,7 +5,7 @@ export const CoinFlip: Command = {
     name: "cointoss",
     description: "Flips a coin",
     type: ApplicationCommandType.ChatInput,
-    run: async (client: Client, interaction: CommandInteraction, runTime:Date) => {
+    run: async (client: Client, interaction: CommandInteraction) => {
         var coinFlip = Math.round(Math.random()) + 1;
         const content = (coinFlip == 1) ?  "heads" : "tails";   
         const thumbNail = (coinFlip == 1) ? "https://i.imgur.com/yYJykFE.png" : "https://i.imgur.com/HFssJWo.png";
